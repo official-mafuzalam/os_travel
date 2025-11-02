@@ -86,7 +86,7 @@ const register = () => '/register';
                     <!-- Centered Dropdown Menu -->
                     <NavigationMenuItem class="relative">
                         <NavigationMenuTrigger
-                            class="text-gray-100 dark:text-gray-200"
+                            class="bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
                             >Components</NavigationMenuTrigger
                         >
                         <NavigationMenuContent
@@ -119,7 +119,7 @@ const register = () => '/register';
 
                     <NavigationMenuItem className="hidden md:block">
                         <NavigationMenuTrigger
-                            class="text-gray-100 dark:text-gray-200"
+                            class="bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
                             >Simple</NavigationMenuTrigger
                         >
                         <NavigationMenuContent>
@@ -140,7 +140,7 @@ const register = () => '/register';
                     </NavigationMenuItem>
 
                     <NavigationMenuItem
-                        class="text-gray-100 dark:text-gray-200"
+                        class="bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
                     >
                         <NavigationMenuLink
                             href="/docs/introduction"

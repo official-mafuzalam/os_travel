@@ -17,7 +17,7 @@ const siteName = setting('site_name', envSiteName);
     </Head>
 
     <MainLayout>
-        <section class="p-6">
+        <section class="w-full text-center">
             <h1 class="text-3xl font-bold text-blue-800 dark:text-blue-100">
                 Welcome to {{ siteName }}
             </h1>

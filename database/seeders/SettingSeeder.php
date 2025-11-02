@@ -19,7 +19,7 @@ class SettingSeeder extends Seeder
         $generalSettings = [
             [
                 'key' => 'site_name',
-                'value' => 'Octosync Software Ltd',
+                'value' => 'Octosync Smart Travel Agency',
                 'type' => 'text',
                 'group' => 'general',
                 'label' => 'Site Name',
@@ -27,7 +27,7 @@ class SettingSeeder extends Seeder
             ],
             [
                 'key' => 'site_title',
-                'value' => 'Octosync Software Ltd - Bangladesh\'s Leading Software Company',
+                'value' => 'Octosync Smart Travel Agency - Bangladesh\'s Leading Travel Solutions Provider',
                 'type' => 'text',
                 'group' => 'general',
                 'label' => 'Site Title',
@@ -35,7 +35,7 @@ class SettingSeeder extends Seeder
             ],
             [
                 'key' => 'site_url',
-                'value' => 'https://www.octosyncsoftware.com',
+                'value' => 'https://www.travel.octosyncsoftware.com',
                 'type' => 'text',
                 'group' => 'general',
                 'label' => 'Site URL',
